@@ -1,0 +1,4 @@
+# Project exclude paths
+/vendor/
+/vendor/awesome-copilot/skills/webmcpify/templates/mutation-journal.js
+/vendor/awesome-copilot/skills/webmcpify/templates/webmcpify.js

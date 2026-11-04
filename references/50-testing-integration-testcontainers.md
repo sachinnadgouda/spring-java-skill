@@ -1,0 +1,5 @@
+# Integration tests with PostgreSQL and Testcontainers
+
+Use integration tests when database mapping, migrations, transaction behavior, queries, repository wiring or HTTP-to-database behavior matters. Use real PostgreSQL via Testcontainers, not an H2 substitute. Prefer `@ServiceConnection` for supported Spring Boot 4 container wiring, rather than manual dynamic properties; inspect dependencies and configuration before applying. Use `@SpringBootTest` for full-stack cases and suitable slices when sufficient. For HTTP integration cases prefer Boot 4 `RestTestClient` with `@AutoConfigureRestTestClient` when supported by the project; check actual package names and starters. Exercise success and negative paths, validation and security as relevant. Keep container lifecycle and data cleanup deterministic; avoid tests relying on execution order. Run using the project's configured Maven/Gradle integration-test task. If Docker is unavailable, report that tests were not executed, never mark them passed.
+
+Sources: piomin/claude-ai-spring-boot, skills/conventions/SKILL.md; sivaprasadreddy/sivalabs-agent-skills spring-boot testing-strategy; user requirements.

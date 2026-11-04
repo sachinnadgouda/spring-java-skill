@@ -1,0 +1,218 @@
+{
+  "method": "static contract checks and heuristic prompt classification; NOT actual agent runs",
+  "checks": [
+    {
+      "name": "10 trigger prompts defined",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "10 non-trigger prompts defined",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "5 end-to-end cases defined",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "valid frontmatter",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all 10 references present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link references/00-interview-grill-me.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link references/10-behavior-rules.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link references/20-spring-boot-4-java-21.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link references/30-build-tool-detection.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link references/40-testing-unit.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link references/50-testing-integration-testcontainers.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link references/70-terraform.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link references/80-gcp.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link references/90-postgresql.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "link references/60-learnings-and-self-improvement.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "mandatory interview",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no Boot 3 fallback",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Maven and Gradle detection",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Testcontainers PostgreSQL",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unit test isolation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "approval-controlled patches",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source license warning",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "trigger-1",
+      "passed": true,
+      "detail": "Add a Spring Boot 4 REST endpoint for orders"
+    },
+    {
+      "name": "trigger-2",
+      "passed": true,
+      "detail": "Fix a Java 21 Spring transaction bug"
+    },
+    {
+      "name": "trigger-3",
+      "passed": true,
+      "detail": "Write JUnit 5 tests for a Spring service"
+    },
+    {
+      "name": "trigger-4",
+      "passed": true,
+      "detail": "Add PostgreSQL Testcontainers integration coverage"
+    },
+    {
+      "name": "trigger-5",
+      "passed": true,
+      "detail": "Upgrade a Spring Boot 4 Maven build"
+    },
+    {
+      "name": "trigger-6",
+      "passed": true,
+      "detail": "Implement a Gradle-based Spring Boot feature"
+    },
+    {
+      "name": "trigger-7",
+      "passed": true,
+      "detail": "Review Spring Boot controller validation"
+    },
+    {
+      "name": "trigger-8",
+      "passed": true,
+      "detail": "Add a RestClient integration to a Java service"
+    },
+    {
+      "name": "trigger-9",
+      "passed": true,
+      "detail": "Adjust Terraform for the existing Spring application"
+    },
+    {
+      "name": "trigger-10",
+      "passed": true,
+      "detail": "Review GCP deployment for a Spring Boot service"
+    },
+    {
+      "name": "non-trigger-1",
+      "passed": true,
+      "detail": "Write a Python pandas script"
+    },
+    {
+      "name": "non-trigger-2",
+      "passed": true,
+      "detail": "Explain CSS grid layout"
+    },
+    {
+      "name": "non-trigger-3",
+      "passed": true,
+      "detail": "Translate this Spanish paragraph"
+    },
+    {
+      "name": "non-trigger-4",
+      "passed": true,
+      "detail": "Plan a vacation in Rome"
+    },
+    {
+      "name": "non-trigger-5",
+      "passed": true,
+      "detail": "Write a React component without Java"
+    },
+    {
+      "name": "non-trigger-6",
+      "passed": true,
+      "detail": "Debug a Rust borrow checker error"
+    },
+    {
+      "name": "non-trigger-7",
+      "passed": true,
+      "detail": "Draft a business email"
+    },
+    {
+      "name": "non-trigger-8",
+      "passed": true,
+      "detail": "Explain a calculus integral"
+    },
+    {
+      "name": "non-trigger-9",
+      "passed": true,
+      "detail": "Create a SwiftUI view"
+    },
+    {
+      "name": "non-trigger-10",
+      "passed": true,
+      "detail": "Review a Node.js Express endpoint"
+    }
+  ],
+  "passed": 42,
+  "total": 42,
+  "failed": []
+}

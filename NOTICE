@@ -1,0 +1,13 @@
+NOTICE — Spring Java Agent Skill Pack
+
+Source attribution:
+- piomin/claude-ai-spring-boot — Apache License 2.0; original LICENSE retained in vendor/claude-ai-spring-boot/LICENSE.
+- sivaprasadreddy/sivalabs-agent-skills — MIT.
+- decebals/claude-code-java — MIT.
+- rrezartprebreza/spring-boot-skills — MIT.
+- Jeffallan/claude-skills — MIT (spring-boot-engineer only).
+- github/awesome-copilot — MIT at repository root (java-springboot only; verify file-level terms).
+- mattpocock/skills — MIT (grill-me only).
+- multica-ai/andrej-karpathy-skills — UNVERIFIED LICENSE; review-only vendor copy, ideas independently paraphrased with attribution.
+
+This pack contains material sourced from projects with mixed licenses. Attribution and license notices must be preserved as applicable. This NOTICE records source attribution for the assembled skill pack. Verify any additional file-level licensing before redistribution.

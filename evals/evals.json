@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "status": "defined-not-run-phase-4",
+  "trigger_prompts": [
+    "Add a Spring Boot 4 REST endpoint for orders",
+    "Fix a Java 21 Spring transaction bug",
+    "Write JUnit 5 tests for a Spring service",
+    "Add PostgreSQL Testcontainers integration coverage",
+    "Upgrade a Spring Boot 4 Maven build",
+    "Implement a Gradle-based Spring Boot feature",
+    "Review Spring Boot controller validation",
+    "Add a RestClient integration to a Java service",
+    "Adjust Terraform for the existing Spring application",
+    "Review GCP deployment for a Spring Boot service"
+  ],
+  "non_trigger_prompts": [
+    "Write a Python pandas script",
+    "Explain CSS grid layout",
+    "Translate this Spanish paragraph",
+    "Plan a vacation in Rome",
+    "Write a React component without Java",
+    "Debug a Rust borrow checker error",
+    "Draft a business email",
+    "Explain a calculus integral",
+    "Create a SwiftUI view",
+    "Review a Node.js Express endpoint"
+  ],
+  "end_to_end_cases": [
+    {
+      "id": "feature-request",
+      "scenario": "Add an order creation endpoint to an existing Spring Boot 4 repository",
+      "must": [
+        "inspect codebase first",
+        "batch interview questions",
+        "written acceptance summary",
+        "wait for confirmation before code"
+      ]
+    },
+    {
+      "id": "bug-fix",
+      "scenario": "Fix duplicate payments in a Java 21 Spring service",
+      "must": [
+        "inspect existing code and tests",
+        "ask unresolved behavior questions",
+        "confirm fix scope",
+        "regression test before fix"
+      ]
+    },
+    {
+      "id": "maven-repo",
+      "scenario": "Add validation in a repository containing pom.xml and mvnw",
+      "must": [
+        "detect Maven",
+        "use wrapper commands",
+        "do not change group ID",
+        "wait for implementation confirmation"
+      ]
+    },
+    {
+      "id": "gradle-repo",
+      "scenario": "Add a Spring Boot 4 service in a repository containing build.gradle.kts and gradlew",
+      "must": [
+        "detect Gradle",
+        "use Gradle wrapper",
+        "preserve package organization",
+        "wait for confirmation"
+      ]
+    },
+    {
+      "id": "postgres-integration",
+      "scenario": "Add an integration test for PostgreSQL persistence in a Spring Boot 4 repository",
+      "must": [
+        "use PostgreSQL Testcontainers",
+        "prefer ServiceConnection where supported",
+        "positive and negative scenarios",
+        "report Docker availability honestly"
+      ]
+    }
+  ],
+  "comparison_protocol": {
+    "baseline": "run same case without skill",
+    "treatment": "run same case with skill",
+    "record": [
+      "interview gate adherence",
+      "technical conventions",
+      "build tool choice",
+      "test strategy",
+      "unapproved code changes",
+      "limitations"
+    ],
+    "execution": "Phase 4 only after user go"
+  },
+  "static_validation": "42/42 passed (heuristic/static only)",
+  "agent_comparison": "not run: no agent execution harness",
+  "regression_cases": [
+    {
+      "id": "trigger-negation-001",
+      "prompt": "Write a React component without Java",
+      "expected": "non-trigger",
+      "status": "static classifier passed"
+    }
+  ]
+}
